@@ -41,6 +41,7 @@ split = ( number_of_elements / 3 ) * 2
 train = data[:split]
 test = data[split:]
 
+
 cl = NaiveBayesClassifier(train)
 print "Accuracy on Test data:"
 print cl.accuracy(test)
